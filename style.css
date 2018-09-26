@@ -1,0 +1,262 @@
+        body {
+            background: rgba(0, 0, 0, 0.1);
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            height: 125px;
+            width: 100%;
+            background: red;
+            overflow: hidden;
+            z-index: 1;
+            border-bottom: solid 6px rgba(252, 203, 71, 0.9);
+            position: relative;
+            position: fixed;
+            display: flex;
+           
+        }
+
+        .header1 {
+            position: absolute;
+            left: -100px;
+            top: 70px;
+            width: 800px;
+            height: 80px;
+            transform: skew(50deg);
+            background: black;
+             padding-bottom: 100px;
+        }
+        .toolBar{
+            background: red;
+            clear: both;
+            position: absolute;
+            top: 0;
+        }
+        .header img{
+            position: relative;
+            width: 110px;
+            height: 110px;  
+            left: -450px;
+            top: 5px;
+            border-radius: 10px;
+            
+
+        }
+        .header ul {
+            display: flex;
+            list-style: none;
+            position: relative;
+            top: 70px;
+            left: 150px;
+            z-index: 5;
+
+
+        }
+
+        .header ul li {
+            padding-right: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+
+        }
+
+        .header ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+
+        .header h1 {
+            
+            color: white;
+            position: absolute;
+            left: 65%;
+            border-bottom: solid 2px red;
+            color: rgb(246, 247, 252);
+            z-index: 2;
+            text-shadow: 2px 1px 0px rgb(4, 47, 189);
+            top: -10px;
+            text-transform: uppercase;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        .bodSide {
+            width: 100%;
+            min-height: 400px;
+            margin: auto;
+            padding-top: 130px;
+        }
+
+        .toolBar {
+            height: 50px;
+            width: 100%;
+            background: white;
+            border-top: solid 8px black;
+            position: relative;
+            top: -25px;
+            z-index: 20;
+        }
+        #explain-fifadh{
+            color: white;
+            position: relative;
+            left: 78%;
+            top: 50px;
+            display: block;
+        }
+   .bannerSide{
+       width: 100%;
+       min-height: 250px;
+       background: white;
+       border-top: solid 8px black;
+        }
+        .menu-banner{
+            width: 100%;
+            padding: 5px;
+        }
+        .menu-banner{
+            flex: 1;
+            
+        }
+        #main-ban{
+            flex:4 ;
+        }
+        img{
+           
+            
+        }
+        .mainBan{
+            min-height: 270px;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .borderBan{
+            height: 20px;
+            background: silver;
+            border-bottom: solid 2px rgba(0, 0, 0, 0.3);
+            border-top: solid 2px rgba(0, 0, 0, 0.3);
+        }
+        #main-ban img{
+            border-radius: 20px/50px;
+            padding: 0;
+            margin: 0;
+            /*border: solid 3px black;*/
+        }
+        #main-ban0{
+            border-top: solid 2px blue;
+            border-bottom: solid 2px rgb(255, 51, 0);
+            margin: 5px;
+            padding: 10px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        #main-ban0 h2{
+            padding: 0;
+            margin: 0 0 15px 0 ;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.1);
+        }
+        #main-ban1{
+            border-bottom: solid 2px blue;
+            border-top: solid 2px rgb(255, 51, 0);
+            margin: 5px;
+            padding: 10px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        #main-ban1 h2{
+            padding: 5px;
+            margin: 0 0 15px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            background: rgba(0, 0, 0, 0.1);
+            text-align: center;a
+        }
+       
+
+        #main-ban{
+            margin: 5px;
+            border-bottom: solid 2px rgba(223, 31, 6, 0.9);
+            border-top: solid 2px rgba(38, 59, 247, 0.9);
+            animation: silder 30s infinite;
+           background: url(images/ban3.png);
+           background-size: cover;
+        }
+        .Insection{
+            display: flex;
+            justify-content: space-between;
+        }
+        .Insection section{
+            flex-basis: 22%;
+             justify-content: space-between;
+             padding: 10px;
+             min-height: 300px;
+             background: white;
+             margin: 10px;
+             box-shadow: rgba(0, 0, 0, 0.3) 1px 2px 0px;
+        }
+        .img-text-body img{
+            width: 100%
+        }
+         .img-text-body h2{
+            border: rgba(0, 0, 0, 0.1) solid 1px;
+            margin-bottom: 40px;
+            padding: 10px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        .img-text-body h2, p{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        footer{
+            min-height: 150px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            border-top:white solid 5px;
+        }
+   @keyframes silder{
+        0%{background: url(ban2.png) no-repeat;background-size: cover;}
+        50%{background: url(ban3.png) no-repeat;background-size: cover;}
+        100%{background: url(ban2.png)no-repeat;background-size: cover;}
+    }    
+   @media screen and (max-width:600px){
+        .header {
+            min-height: 115px;
+            width: 100%;
+            background: red;
+            z-index: 1;
+            border-bottom: solid 6px rgba(252, 203, 71, 0.9);
+        }
+       .header ul {
+            display: block;
+       }
+       .header1 {
+            
+            width: 100%;
+            height: 80px;
+            transform: skew(0deg);
+            background: black;
+        }
+        img{
+            width: 100%;
+        }
+        .mainBan{
+            
+            display: block;
+        }
+       
+
+   }
